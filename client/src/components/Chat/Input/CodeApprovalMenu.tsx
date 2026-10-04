@@ -133,7 +133,7 @@ export default function CodeApprovalMenu({
         gutter={8}
         unmountOnHide={true}
         className={cn(
-          'z-50 flex max-w-[min(320px,calc(100vw-2rem))] min-w-[260px] flex-col rounded-2xl',
+          'z-50 flex max-w-[min(320px,calc(100vw-2rem))] min-w-[260px] flex-col rounded-theme-popover',
           'border-border-menu bg-surface-menu max-h-[var(--popover-available-height)] overflow-y-auto border p-1 shadow-lg',
           'origin-bottom opacity-0 transition-[opacity,transform] duration-200 ease-out',
           'data-[enter]:scale-100 data-[enter]:opacity-100',
